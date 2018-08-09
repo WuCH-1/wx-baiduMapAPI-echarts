@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<image src="../img/InkBg.jpg" class="bg"></image>
+<view class="weather"> 
+  <view class="city">{{city}}</view > 
+  <view class="date">{{date}}</view > 
+  <view class="temperature">{{temperature}}</view > 
+  <view class="weatherDesc">{{weatherDesc}}</view > 
+  <view class="wind">{{wind}}</view > 
+  <view class="pm25">空气质量指数：{{pm25}}</view > 
+</view>

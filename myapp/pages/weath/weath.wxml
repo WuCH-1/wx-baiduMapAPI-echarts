@@ -1,0 +1,8 @@
+<!--pages/weath/weath.wxml-->
+<image src="../img/Inkcrane.jpg" class="bg"></image>
+<view class="content">
+  <view wx:for="{{lifeArr}}" wx:key="{{index}}">
+     <view class="tipt">{{item.tipt}}<view class="zs">{{item.zs}}</view></view>
+     <view class="des">{{item.des}}</view>
+  </view>
+</view>

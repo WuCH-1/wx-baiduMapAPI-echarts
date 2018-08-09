@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weath/weath",
+    "pages/line/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天气预报",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#333",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/img/house.png",
+      "selectedIconPath": "pages/img/house1.png"
+    },{
+      "pagePath": "pages/weath/weath",
+      "text": "适宜",
+      "iconPath": "pages/img/cloudy.png",
+      "selectedIconPath": "pages/img/cloudy1.png"
+    },{
+      "pagePath": "pages/line/index",
+      "text": "预报",
+      "iconPath": "pages/img/look.png",
+      "selectedIconPath": "pages/img/look1.png"
+    }]
+  }
+}

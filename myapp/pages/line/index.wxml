@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<image src="../img/boat.jpg" class="bg"></image>
+<view class="line-weath">
+  <view class="sdate" wx:for="{{days}}" wx:key="{{index}}">
+      <view >{{item.date}} </view>
+      <image src="{{item.icon}}"></image>  
+      <view>{{item.temperature}}</view>
+      <view class="weather">{{item.weather}}</view>
+  </view>
+
+  <ec-canvas id="mychart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+</view>

@@ -1,0 +1,32 @@
+/* pages/weath/weath.wxss */
+page{
+  height:100%;
+  overflow: hidden;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+}
+.content{
+  position: absolute;
+  top:10rpx;
+  left:30rpx;
+  right:30rpx;
+  bottom:0;
+}
+.tipt{
+  font-size:35rpx;
+  color:rgb(77, 12, 12);
+  margin-top:30rpx;
+  margin-bottom:10rpx;
+}
+.zs{
+  float:right;
+  margin-right:40rpx;
+  font-size:33rpx;
+  color:rgb(151, 37, 37);
+}
+.des{
+  font-size:30rpx;
+  color:rgb(68, 41, 41);
+}
